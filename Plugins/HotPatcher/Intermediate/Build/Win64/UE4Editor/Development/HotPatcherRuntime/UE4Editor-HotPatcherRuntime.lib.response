@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HotPatcherRuntime.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Development\HotPatcherRuntime\Module.HotPatcherRuntime.cpp.obj"
+"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Development\HotPatcherRuntime\Module.HotPatcherRuntime.gen.cpp.obj"
+"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Development\HotPatcherRuntime\UE4Editor-HotPatcherRuntime.lib"
+/INCLUDE:IMPLEMENT_MODULE_HotPatcherRuntime
