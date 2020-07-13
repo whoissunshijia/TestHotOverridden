@@ -1,0 +1,2 @@
+"D:/unealPro/PluginsPro/MyProject/Saved/Cooked/WindowsNoEditor/MyProject/Content/ThirdPersonCPP/Blueprints/PrintTest.uasset" "../../../MyProject/Content/ThirdPersonCPP/Blueprints/PrintTest.uasset"
+"D:/unealPro/PluginsPro/MyProject/Saved/Cooked/WindowsNoEditor/MyProject/Content/ThirdPersonCPP/Blueprints/PrintTest.uexp" "../../../MyProject/Content/ThirdPersonCPP/Blueprints/PrintTest.uexp"
