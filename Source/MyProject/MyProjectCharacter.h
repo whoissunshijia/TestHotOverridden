@@ -31,6 +31,12 @@ public:
 
 	virtual void BeginPlay() override;
 
+	UFUNCTION(BlueprintCallable)
+	void PrintNum();
+
+	UFUNCTION(BlueprintCallable)
+	void SpawnNum();
+
 protected:
 
 	/** Resets HMD orientation in VR. */

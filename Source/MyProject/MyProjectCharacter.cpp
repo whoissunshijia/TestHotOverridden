@@ -11,6 +11,7 @@
 
 #include "IPlatformFilePak.h"
 #include "PlatformFilemanager.h"
+#include "PackageReload.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AMyProjectCharacter
@@ -52,14 +53,37 @@ AMyProjectCharacter::AMyProjectCharacter()
 
 void AMyProjectCharacter::BeginPlay()
 {
-	Super::BeginPlay();
+	Super::BeginPlay();	
+}
 
+void AMyProjectCharacter::PrintNum()
+{
 	TArray<FString> PakFolders;
-
 	FPakPlatformFile::GetPakFolders(FCommandLine::Get(), PakFolders);
-
 	FPakPlatformFile* WrapperFile = (FPakPlatformFile*)FPlatformFileManager::Get().GetPlatformFile(TEXT("PakFile"));
 	WrapperFile->MountAllPakFiles(PakFolders);
+
+	FString PartialName = TEXT("/Game/ThirdPersonCPP/Blueprints/PrintTest");
+	UObject* InPackage=nullptr;
+	UObject* NewPackage = FindObject<UPackage>(InPackage, *PartialName);
+	if (!NewPackage)
+	{
+		NewPackage = FindObject<UObject>(InPackage == NULL ? ANY_PACKAGE : InPackage, *PartialName);
+		InPackage = NewPackage;
+	}
+
+	if (!FPackageName::IsShortPackageName(PartialName))
+	{
+		// Try to find the package in memory first, should be faster than attempting to load or create
+		InPackage = StaticFindObjectFast(UPackage::StaticClass(), InPackage, *PartialName);
+	}
+	ReloadPackage((UPackage*)InPackage,LOAD_Async);
+}
+
+void AMyProjectCharacter::SpawnNum()
+{
+	UClass* NumClass = LoadClass<AActor>(NULL, TEXT("/Game/ThirdPersonCPP/Blueprints/PrintTest.PrintTest_C"));
+	GetWorld()->SpawnActor<AActor>(NumClass);
 }
 
 //////////////////////////////////////////////////////////////////////////
