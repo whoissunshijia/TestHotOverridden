@@ -51,6 +51,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	UObject* FindObjectInPackage(const FString& PartialName);
 
+	UFUNCTION(BlueprintCallable)
+	UObject* GetObjectPathName(UObject* Obj);
+
 protected:
 
 	/** Resets HMD orientation in VR. */

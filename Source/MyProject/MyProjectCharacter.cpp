@@ -130,7 +130,14 @@ UObject* AMyProjectCharacter::FindObjectInPackage(const FString& PartialName)
 {
 	UObject* InPackage = nullptr;
 	UObject* FindRet = FindObject<UObject>(InPackage, *PartialName);
+
 	return FindRet;
+}
+
+UObject* AMyProjectCharacter::GetObjectPathName(UObject* Obj)
+{
+	FName l = *(Obj->GetPathName());
+	return nullptr;
 }
 
 //////////////////////////////////////////////////////////////////////////
