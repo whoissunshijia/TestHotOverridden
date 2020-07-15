@@ -35,7 +35,21 @@ public:
 	void PrintNum();
 
 	UFUNCTION(BlueprintCallable)
-	void SpawnNum();
+	UObject* SpawnUObject(const FString& ObjectName);
+
+	UObject* ImageObject;
+
+	UFUNCTION(BlueprintCallable)
+	UObject* UpdateNewPackage(const FString& PartialName);
+
+	UFUNCTION(BlueprintCallable)
+	UClass* GetUClass(const UObject* obj);
+
+	UFUNCTION(BlueprintCallable)
+	UObject* GetOuterObject(const UObject* obj);
+
+	UFUNCTION(BlueprintCallable)
+	UObject* FindObjectInPackage(const FString& PartialName);
 
 protected:
 

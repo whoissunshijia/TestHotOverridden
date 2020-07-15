@@ -1,0 +1,9 @@
+{
+	"BuildId": "9f548634-f16a-415c-a54f-a2e85d5517fe",
+	"Modules": 
+	{
+		"AssetManagerEx": "UE4Editor-AssetManagerEx-Win64-DebugGame.dll",
+		"HotPatcherEditor": "UE4Editor-HotPatcherEditor-Win64-DebugGame.dll",
+		"HotPatcherRuntime": "UE4Editor-HotPatcherRuntime-Win64-DebugGame.dll"
+	}
+}

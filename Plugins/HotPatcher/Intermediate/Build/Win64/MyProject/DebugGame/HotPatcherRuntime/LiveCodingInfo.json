@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HotPatcherRuntime.cpp.obj": [
+			"FlibAssetLoadHelper.cpp.obj",
+			"FlibPakHelper.cpp.obj",
+			"FlibPatchParserHelper.cpp.obj",
+			"HotPatcher.cpp.obj"
+		],
+		"Module.HotPatcherRuntime.gen.cpp.obj": [
+			"ETargetPlatform.gen.cpp.obj",
+			"FAssetRelatedInfo.gen.cpp.obj",
+			"FChunkInfo.gen.cpp.obj",
+			"FCookerConfig.gen.cpp.obj",
+			"FExternAssetFileInfo.gen.cpp.obj",
+			"FExternDirectoryInfo.gen.cpp.obj",
+			"FHotPatcherVersion.gen.cpp.obj",
+			"FlibAssetLoadHelper.gen.cpp.obj",
+			"FlibPakHelper.gen.cpp.obj",
+			"FlibPatchParserHelper.gen.cpp.obj",
+			"FPakFileInfo.gen.cpp.obj",
+			"FPakVersion.gen.cpp.obj",
+			"FPatcherSpecifyAsset.gen.cpp.obj",
+			"FPatchVersionDiff.gen.cpp.obj",
+			"FReplaceText.gen.cpp.obj",
+			"HotPatcherRuntime.init.gen.cpp.obj"
+		]
+	}
+}

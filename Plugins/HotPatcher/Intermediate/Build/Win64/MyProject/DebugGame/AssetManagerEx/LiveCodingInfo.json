@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetManagerEx.cpp.obj": [
+			"AssetManagerEx.cpp.obj",
+			"FLibAssetManageHelperEx.cpp.obj"
+		],
+		"Module.AssetManagerEx.gen.cpp.obj": [
+			"AssetManagerEx.init.gen.cpp.obj",
+			"FAssetDependenciesDetail.gen.cpp.obj",
+			"FAssetDependenciesInfo.gen.cpp.obj",
+			"FAssetDetail.gen.cpp.obj",
+			"FLibAssetManageHelperEx.gen.cpp.obj"
+		]
+	}
+}

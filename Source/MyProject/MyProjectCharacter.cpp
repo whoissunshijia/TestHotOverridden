@@ -63,7 +63,7 @@ void AMyProjectCharacter::PrintNum()
 	FPakPlatformFile* WrapperFile = (FPakPlatformFile*)FPlatformFileManager::Get().GetPlatformFile(TEXT("PakFile"));
 	WrapperFile->MountAllPakFiles(PakFolders);
 
-	FString PartialName = TEXT("/Game/ThirdPersonCPP/Blueprints/PrintTest");
+	FString PartialName = TEXT("/Game/ThirdPersonCPP/Blueprints/1M_Cube");
 	UObject* InPackage=nullptr;
 	UObject* NewPackage = FindObject<UPackage>(InPackage, *PartialName);
 	if (!NewPackage)
@@ -77,13 +77,60 @@ void AMyProjectCharacter::PrintNum()
 		// Try to find the package in memory first, should be faster than attempting to load or create
 		InPackage = StaticFindObjectFast(UPackage::StaticClass(), InPackage, *PartialName);
 	}
-	ReloadPackage((UPackage*)InPackage,LOAD_Async);
+	UPackage* l=ReloadPackage((UPackage*)InPackage,0);
+	UPackage* o = l;
+	
 }
 
-void AMyProjectCharacter::SpawnNum()
+UObject* AMyProjectCharacter::SpawnUObject(const FString& ObjectName)
 {
-	UClass* NumClass = LoadClass<AActor>(NULL, TEXT("/Game/ThirdPersonCPP/Blueprints/PrintTest.PrintTest_C"));
-	GetWorld()->SpawnActor<AActor>(NumClass);
+	ImageObject = LoadObject<UTexture2D>(NULL, TEXT("/Game/ThirdPersonCPP/Blueprints/text.text"));
+	return ImageObject;
+}
+
+UObject* AMyProjectCharacter::UpdateNewPackage(const FString& PartialName)
+{
+	TArray<FString> PakFolders;
+	FPakPlatformFile::GetPakFolders(FCommandLine::Get(), PakFolders);
+	FPakPlatformFile* WrapperFile = (FPakPlatformFile*)FPlatformFileManager::Get().GetPlatformFile(TEXT("PakFile"));
+	WrapperFile->MountAllPakFiles(PakFolders);
+
+	//FString PartialName = TEXT("/Game/ThirdPersonCPP/Blueprints/1M_Cube");
+	UObject* InPackage = nullptr;
+	UObject* NewPackage = FindObject<UPackage>(InPackage, *PartialName);
+	if (!NewPackage)
+	{
+		NewPackage = FindObject<UObject>(InPackage == NULL ? ANY_PACKAGE : InPackage, *PartialName);
+		InPackage = NewPackage;
+	}
+
+	if (!FPackageName::IsShortPackageName(PartialName))
+	{
+		// Try to find the package in memory first, should be faster than attempting to load or create
+		InPackage = StaticFindObjectFast(UPackage::StaticClass(), InPackage, *PartialName);
+	}
+	UPackage* l = ReloadPackage((UPackage*)InPackage, 0);
+
+	return l;
+}
+
+UClass* AMyProjectCharacter::GetUClass(const UObject* obj)
+{
+	UClass* i = obj->GetClass();
+	return i;
+}
+
+UObject* AMyProjectCharacter::GetOuterObject(const UObject* obj)
+{
+	UObject* i = obj->GetOuter();
+	return i;
+}
+
+UObject* AMyProjectCharacter::FindObjectInPackage(const FString& PartialName)
+{
+	UObject* InPackage = nullptr;
+	UObject* FindRet = FindObject<UObject>(InPackage, *PartialName);
+	return FindRet;
 }
 
 //////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,36 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HotPatcherEditor.cpp.obj": [
+			"HotCookerCommandlet.cpp.obj",
+			"HotPatcherCommandlet.cpp.obj",
+			"SHotPatcherCookedPlatforms.cpp.obj",
+			"SHotPatcherCookMaps.cpp.obj",
+			"SHotPatcherCookSetting.cpp.obj",
+			"SHotPatcherCookSpecifyCookFilter.cpp.obj",
+			"SProjectCookPage.cpp.obj",
+			"ExportPatchSettings.cpp.obj",
+			"PatcherProxy.cpp.obj",
+			"SHotPatcherExportPatch.cpp.obj",
+			"SHotPatcherExportRelease.cpp.obj",
+			"SHotPatcherInformations.cpp.obj",
+			"SHotPatcherPatchableBase.cpp.obj",
+			"SProjectCreatePatchPage.cpp.obj",
+			"FlibHotPatcherEditorHelper.cpp.obj",
+			"HotPatcherCommands.cpp.obj",
+			"HotPatcherEditor.cpp.obj",
+			"HotPatcherStyle.cpp.obj",
+			"SHotPatcher.cpp.obj"
+		],
+		"Module.HotPatcherEditor.gen.cpp.obj": [
+			"ExportPatchSettings.gen.cpp.obj",
+			"ExportReleaseSettings.gen.cpp.obj",
+			"FlibHotPatcherEditorHelper.gen.cpp.obj",
+			"HotCookerCommandlet.gen.cpp.obj",
+			"HotPatcherCommandlet.gen.cpp.obj",
+			"HotPatcherEditor.init.gen.cpp.obj",
+			"PatcherProxy.gen.cpp.obj",
+			"SpecifyCookFilterSetting.gen.cpp.obj"
+		]
+	}
+}
