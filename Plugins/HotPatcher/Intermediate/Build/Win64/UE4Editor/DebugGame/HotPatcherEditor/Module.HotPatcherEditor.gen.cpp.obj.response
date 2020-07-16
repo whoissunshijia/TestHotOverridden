@@ -25,7 +25,7 @@
 /wd4838
 /we4668
 /I .
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherEditor\Private
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherEditor\Private
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -426,22 +426,22 @@
 /I Runtime\AIModule\Public
 /I Runtime\AIModule\Classes
 /I Runtime\AIModule
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Inc\HotPatcherRuntime
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherRuntime\Public
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherRuntime
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Inc\AssetManagerEx
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public\Flib
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct\AssetManager
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Inc\HotPatcherEditor
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherEditor\Classes
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherEditor\Public
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherEditor
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherEditor\Public\ThreadUtils
+/I C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Inc\HotPatcherRuntime
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherRuntime\Public
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherRuntime
+/I C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Inc\AssetManagerEx
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public\Flib
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct\AssetManager
+/I C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Inc\HotPatcherEditor
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherEditor\Classes
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherEditor\Public
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherEditor
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherEditor\Public\ThreadUtils
 /I Developer\TargetPlatform\Public
 /I Developer\TargetPlatform
 /I Developer\TargetPlatform\Public\Common
@@ -451,18 +451,18 @@
 /I Runtime\Portal\LauncherPlatform
 /I Developer\PakFileUtilities\Public
 /I Developer\PakFileUtilities
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h"
-/Yu"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h"
-/Fp"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h.pch"
-"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Module.HotPatcherEditor.gen.cpp"
-/FI"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Definitions.HotPatcherEditor.h"
-/Fo"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Module.HotPatcherEditor.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h"
+/Yu"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h"
+/Fp"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h.pch"
+"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Module.HotPatcherEditor.gen.cpp"
+/FI"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Definitions.HotPatcherEditor.h"
+/Fo"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Module.HotPatcherEditor.gen.cpp.obj"
 /TP
 /GR-
 /W4

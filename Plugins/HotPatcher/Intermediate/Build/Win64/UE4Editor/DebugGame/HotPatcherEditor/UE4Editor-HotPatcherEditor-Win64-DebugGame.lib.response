@@ -6,9 +6,9 @@
 /NAME:"UE4Editor-HotPatcherEditor-Win64-DebugGame.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h.obj"
-"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Module.HotPatcherEditor.cpp.obj"
-"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Module.HotPatcherEditor.gen.cpp.obj"
-"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
-/OUT:"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\UE4Editor-HotPatcherEditor-Win64-DebugGame.lib"
+"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h.obj"
+"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Module.HotPatcherEditor.cpp.obj"
+"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\Module.HotPatcherEditor.gen.cpp.obj"
+"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\HotPatcherEditor\UE4Editor-HotPatcherEditor-Win64-DebugGame.lib"
 /INCLUDE:IMPLEMENT_MODULE_HotPatcherEditor

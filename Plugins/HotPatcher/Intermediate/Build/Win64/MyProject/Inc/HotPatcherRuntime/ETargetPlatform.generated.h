@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define HOTPATCHERRUNTIME_ETargetPlatform_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_ETargetPlatform_h
+#define CURRENT_FILE_ID TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_ETargetPlatform_h
 
 
 #define FOREACH_ENUM_ETARGETPLATFORM(op) \

@@ -43,7 +43,7 @@
 #define OVERRIDE_PLATFORM_HEADER_NAME Windows
 #define NDEBUG 1
 #define UE_BUILD_DEVELOPMENT 1
-#define UE_ENGINE_DIRECTORY "E:/uneal/releas_422/UnrealEngine/Engine/"
+#define UE_ENGINE_DIRECTORY "E:/UnrealEngine/UnrealEngine/Engine/"
 #define UE_IS_ENGINE_MODULE 0
 #define UE_PROJECT_NAME MyProject
 #define IMPLEMENT_ENCRYPTION_KEY_REGISTRATION() 

@@ -14,7 +14,7 @@ struct FPakVersion;
 #endif
 #define HOTPATCHERRUNTIME_FlibPakHelper_generated_h
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_RPC_WRAPPERS \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetAllMountedPaks) \
 	{ \
@@ -148,7 +148,7 @@ struct FPakVersion;
 	}
 
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetAllMountedPaks) \
 	{ \
@@ -282,7 +282,7 @@ struct FPakVersion;
 	}
 
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_INCLASS_NO_PURE_DECLS \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUFlibPakHelper(); \
 	friend struct Z_Construct_UClass_UFlibPakHelper_Statics; \
@@ -291,7 +291,7 @@ public: \
 	DECLARE_SERIALIZER(UFlibPakHelper)
 
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_INCLASS \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUFlibPakHelper(); \
 	friend struct Z_Construct_UClass_UFlibPakHelper_Statics; \
@@ -300,7 +300,7 @@ public: \
 	DECLARE_SERIALIZER(UFlibPakHelper)
 
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_STANDARD_CONSTRUCTORS \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFlibPakHelper(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFlibPakHelper) \
@@ -313,7 +313,7 @@ private: \
 public:
 
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_ENHANCED_CONSTRUCTORS \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFlibPakHelper(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -326,26 +326,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFlibPakHelper); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFlibPakHelper)
 
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_PRIVATE_PROPERTY_OFFSET
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_15_PROLOG
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_GENERATED_BODY_LEGACY \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_PRIVATE_PROPERTY_OFFSET
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_15_PROLOG
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_PRIVATE_PROPERTY_OFFSET \
-	MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_RPC_WRAPPERS \
-	MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_INCLASS \
-	MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_STANDARD_CONSTRUCTORS \
+	TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_PRIVATE_PROPERTY_OFFSET \
+	TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_RPC_WRAPPERS \
+	TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_INCLASS \
+	TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_GENERATED_BODY \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_PRIVATE_PROPERTY_OFFSET \
-	MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_INCLASS_NO_PURE_DECLS \
-	MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_ENHANCED_CONSTRUCTORS \
+	TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_PRIVATE_PROPERTY_OFFSET \
+	TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_INCLASS_NO_PURE_DECLS \
+	TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -353,7 +353,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> HOTPATCHERRUNTIME_API UClass* StaticClass<class UFlibPakHelper>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h
+#define CURRENT_FILE_ID TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FlibPakHelper_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

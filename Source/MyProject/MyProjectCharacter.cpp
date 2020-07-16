@@ -12,6 +12,9 @@
 #include "IPlatformFilePak.h"
 #include "PlatformFilemanager.h"
 #include "PackageReload.h"
+#include "Engine/World.h"
+#include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AMyProjectCharacter
@@ -87,7 +90,7 @@ UObject* AMyProjectCharacter::SpawnUObject(const FString& ObjectName)
 	ImageObject = LoadObject<UTexture2D>(NULL, TEXT("/Game/ThirdPersonCPP/Blueprints/text.text"));
 	return ImageObject;
 }
-
+//1
 UObject* AMyProjectCharacter::UpdateNewPackage(const FString& PartialName)
 {
 	TArray<FString> PakFolders;
@@ -110,10 +113,10 @@ UObject* AMyProjectCharacter::UpdateNewPackage(const FString& PartialName)
 		InPackage = StaticFindObjectFast(UPackage::StaticClass(), InPackage, *PartialName);
 	}
 	UPackage* l = ReloadPackage((UPackage*)InPackage, 0);
-
+	
 	return l;
 }
-
+//4
 UClass* AMyProjectCharacter::GetUClass(const UObject* obj)
 {
 	UClass* i = obj->GetClass();
@@ -123,6 +126,7 @@ UClass* AMyProjectCharacter::GetUClass(const UObject* obj)
 UObject* AMyProjectCharacter::GetOuterObject(const UObject* obj)
 {
 	UObject* i = obj->GetOuter();
+	
 	return i;
 }
 
@@ -137,6 +141,19 @@ UObject* AMyProjectCharacter::FindObjectInPackage(const FString& PartialName)
 UObject* AMyProjectCharacter::GetObjectPathName(UObject* Obj)
 {
 	FName l = *(Obj->GetPathName());
+	return nullptr;
+}
+//2
+UObject* AMyProjectCharacter::GetAllActorUseClass(UClass* ObjClass)
+{
+	TArray<AActor*> AllActorClass;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ObjClass, AllActorClass);
+	return nullptr;
+}
+//3
+UObject* AMyProjectCharacter::SpawnNewActor(UClass* ObjClass)
+{
+	GetWorld()->SpawnActor<AActor>(ObjClass,GetActorTransform().GetLocation(), GetActorTransform().GetRotation().Rotator());
 	return nullptr;
 }
 

@@ -54,6 +54,13 @@ public:
 	UFUNCTION(BlueprintCallable)
 	UObject* GetObjectPathName(UObject* Obj);
 
+	UFUNCTION(BlueprintCallable)
+	UObject* GetAllActorUseClass(UClass* ObjClass);
+
+	UFUNCTION(BlueprintCallable)
+	UObject* SpawnNewActor(UClass* ObjClass);
+
+
 protected:
 
 	/** Resets HMD orientation in VR. */

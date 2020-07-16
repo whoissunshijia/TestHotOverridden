@@ -6,9 +6,9 @@
 /NAME:"UE4Editor-AssetManagerEx.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.obj"
-"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Development\AssetManagerEx\Module.AssetManagerEx.cpp.obj"
-"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Development\AssetManagerEx\Module.AssetManagerEx.gen.cpp.obj"
-"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
-/OUT:"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Development\AssetManagerEx\UE4Editor-AssetManagerEx.lib"
+"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Development\AssetManagerEx\Module.AssetManagerEx.cpp.obj"
+"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Development\AssetManagerEx\Module.AssetManagerEx.gen.cpp.obj"
+"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Development\AssetManagerEx\UE4Editor-AssetManagerEx.lib"
 /INCLUDE:IMPLEMENT_MODULE_AssetManagerEx

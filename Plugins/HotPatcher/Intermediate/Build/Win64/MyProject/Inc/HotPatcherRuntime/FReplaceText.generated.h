@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define HOTPATCHERRUNTIME_FReplaceText_generated_h
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FReplaceText_h_15_GENERATED_BODY \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FReplaceText_h_15_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FReplaceText_Statics; \
 	HOTPATCHERRUNTIME_API static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> HOTPATCHERRUNTIME_API UScriptStruct* StaticStruct<struct FReplaceText>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FReplaceText_h
+#define CURRENT_FILE_ID TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FReplaceText_h
 
 
 #define FOREACH_ENUM_ESEARCHCASEMODE(op) \

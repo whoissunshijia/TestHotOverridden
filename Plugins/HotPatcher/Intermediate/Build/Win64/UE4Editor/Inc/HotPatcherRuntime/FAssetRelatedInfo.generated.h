@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define HOTPATCHERRUNTIME_FAssetRelatedInfo_generated_h
 
-#define MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FAssetRelatedInfo_h_13_GENERATED_BODY \
+#define TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FAssetRelatedInfo_h_13_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAssetRelatedInfo_Statics; \
 	HOTPATCHERRUNTIME_API static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> HOTPATCHERRUNTIME_API UScriptStruct* StaticStruct<struct FAssetRelatedInfo>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyProject_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FAssetRelatedInfo_h
+#define CURRENT_FILE_ID TestHotOverridden_Plugins_HotPatcher_Source_HotPatcherRuntime_Public_FAssetRelatedInfo_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

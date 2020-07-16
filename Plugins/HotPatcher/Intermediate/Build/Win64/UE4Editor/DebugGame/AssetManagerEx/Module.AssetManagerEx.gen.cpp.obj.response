@@ -25,14 +25,14 @@
 /wd4838
 /we4668
 /I .
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Private
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Inc\AssetManagerEx
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public\Flib
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct\AssetManager
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Private
+/I C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\Inc\AssetManagerEx
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public\Flib
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct\AssetManager
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -431,18 +431,18 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h"
-/Yu"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h"
-/Fp"E:\uneal\releas_422\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.pch"
-"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\AssetManagerEx\Module.AssetManagerEx.gen.cpp"
-/FI"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\AssetManagerEx\Definitions.AssetManagerEx.h"
-/Fo"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\AssetManagerEx\Module.AssetManagerEx.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h"
+/Yu"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h"
+/Fp"E:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.pch"
+"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\AssetManagerEx\Module.AssetManagerEx.gen.cpp"
+/FI"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\AssetManagerEx\Definitions.AssetManagerEx.h"
+/Fo"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\UE4Editor\DebugGame\AssetManagerEx\Module.AssetManagerEx.gen.cpp.obj"
 /TP
 /GR-
 /W4

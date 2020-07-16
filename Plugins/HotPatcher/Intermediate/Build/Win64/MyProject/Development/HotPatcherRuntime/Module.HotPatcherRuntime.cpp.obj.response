@@ -23,8 +23,8 @@
 /wd4838
 /we4668
 /I .
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherRuntime\Private
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\CoreUObject
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherRuntime\Private
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
 /I Runtime\CoreUObject
@@ -64,7 +64,7 @@
 /I Runtime\Core\Public\Traits
 /I Runtime\Core\Public\UObject
 /I Runtime\Core\Public\Windows
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\Engine
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\Engine
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
 /I Runtime\Engine
@@ -100,7 +100,7 @@
 /I Runtime\Json\Public\Dom
 /I Runtime\Json\Public\Policies
 /I Runtime\Json\Public\Serialization
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\SlateCore
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\SlateCore
 /I Runtime\SlateCore\Public
 /I Runtime\SlateCore
 /I Runtime\SlateCore\Public\Animation
@@ -117,14 +117,14 @@
 /I Runtime\SlateCore\Public\Types
 /I Runtime\SlateCore\Public\Widgets
 /I Runtime\SlateCore\Public\Widgets\Images
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\InputCore
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\InputCore
 /I Runtime\InputCore\Classes
 /I Runtime\InputCore\Public
 /I Runtime\InputCore
 /I Runtime\InputCore\Public\GenericPlatform
 /I Runtime\InputCore\Public\HAL
 /I Runtime\InputCore\Public\Windows
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\Slate
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\Slate
 /I Runtime\Slate\Public
 /I Runtime\Slate
 /I Runtime\Slate\Public\Framework
@@ -161,49 +161,49 @@
 /I Runtime\Sockets
 /I Runtime\UtilityShaders\Public
 /I Runtime\UtilityShaders
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\AssetRegistry
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\AssetRegistry
 /I Runtime\AssetRegistry\Public
 /I Runtime\AssetRegistry
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\EngineMessages
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\EngineMessages
 /I Runtime\EngineMessages\Public
 /I Runtime\EngineMessages
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\EngineSettings
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\EngineSettings
 /I Runtime\EngineSettings\Classes
 /I Runtime\EngineSettings\Public
 /I Runtime\EngineSettings
 /I Runtime\SynthBenchmark\Public
 /I Runtime\SynthBenchmark
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\Renderer
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\Renderer
 /I Runtime\Renderer\Public
 /I Runtime\Renderer
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\GameplayTags
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\GameplayTags
 /I Runtime\GameplayTags\Classes
 /I Runtime\GameplayTags\Public
 /I Runtime\GameplayTags
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\PacketHandler
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\PacketHandler
 /I Runtime\PacketHandlers
 /I Runtime\PacketHandlers\PacketHandler\Classes
 /I Runtime\PacketHandlers\PacketHandler\Public
 /I Runtime\PacketHandlers\PacketHandler
 /I Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
 /I Runtime\PacketHandlers\ReliabilityHandlerComponent
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\AudioPlatformConfiguration
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\AudioPlatformConfiguration
 /I Runtime\AudioPlatformConfiguration\Public
 /I Runtime\AudioPlatformConfiguration
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\MeshDescription
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\MeshDescription
 /I Runtime\MeshDescription\Public
 /I Runtime\MeshDescription
 /I Runtime\PakFile\Public
 /I Runtime\PakFile
 /I Runtime\RSA\Public
 /I Runtime\RSA
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\ClothingSystemRuntimeInterface
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
 /I Runtime\NetworkReplayStreaming
 /I Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
 /I Runtime\NetworkReplayStreaming\NetworkReplayStreaming
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\AudioMixer
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\AudioMixer
 /I Runtime\AudioMixer\Classes
 /I Runtime\AudioMixer\Public
 /I Runtime\AudioMixer
@@ -214,35 +214,35 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Inc\AnimationCore
+/I C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
 /I Runtime\AnimationCore
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Inc\HotPatcherRuntime
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherRuntime\Public
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\HotPatcherRuntime
+/I C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Inc\HotPatcherRuntime
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherRuntime\Public
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\HotPatcherRuntime
 /I Runtime\Projects\Public
 /I Runtime\Projects
 /I Runtime\Projects\Public\Interfaces
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Inc\AssetManagerEx
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public\Flib
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx
-/I D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct\AssetManager
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Inc\AssetManagerEx
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public\Flib
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx
+/I C:\TestHotOverridden\Plugins\HotPatcher\Source\AssetManagerEx\Public\Struct\AssetManager
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
 /D_HAS_EXCEPTIONS=0
-/FI"D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Development\Engine\SharedPCH.Engine.NonOptimized.h"
-/Yu"D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Development\Engine\SharedPCH.Engine.NonOptimized.h"
-/Fp"D:\unealPro\PluginsPro\MyProject\Intermediate\Build\Win64\MyProject\Development\Engine\SharedPCH.Engine.NonOptimized.h.pch"
-"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Development\HotPatcherRuntime\Module.HotPatcherRuntime.cpp"
-/FI"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Development\HotPatcherRuntime\Definitions.HotPatcherRuntime.h"
-/Fo"D:\unealPro\PluginsPro\MyProject\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Development\HotPatcherRuntime\Module.HotPatcherRuntime.cpp.obj"
+/FI"C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Development\Engine\SharedPCH.Engine.NonOptimized.h"
+/Yu"C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Development\Engine\SharedPCH.Engine.NonOptimized.h"
+/Fp"C:\TestHotOverridden\Intermediate\Build\Win64\MyProject\Development\Engine\SharedPCH.Engine.NonOptimized.h.pch"
+"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Development\HotPatcherRuntime\Module.HotPatcherRuntime.cpp"
+/FI"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Development\HotPatcherRuntime\Definitions.HotPatcherRuntime.h"
+/Fo"C:\TestHotOverridden\Plugins\HotPatcher\Intermediate\Build\Win64\MyProject\Development\HotPatcherRuntime\Module.HotPatcherRuntime.cpp.obj"
 /TP
 /GR-
 /W4
